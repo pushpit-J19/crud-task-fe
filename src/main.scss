@@ -1,0 +1,16 @@
+// main SCSS file for styling
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap');
+
+$orangecolor : rgb(255,123,0);
+$peachcolor : rgb(245,128,128);
+
+html, body {
+    background: linear-gradient(to right top, $orangecolor, $peachcolor );
+    height: 100%;
+    font-family: 'Lato';
+    color : white;
+}
+
+
+
